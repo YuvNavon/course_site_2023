@@ -41,8 +41,6 @@ def meetup(agent_listing: tuple) -> list:
 
     num_of_agent=len(list_of_active_agents)
     #make num of angent even
-    if(num_of_agent==1):
-        out+=[list_of_active_agents[0]]
     if(num_of_agent%2==1):
         num_of_agent-=1
         out+=[list_of_active_agents[-1]]
