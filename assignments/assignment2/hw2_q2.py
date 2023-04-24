@@ -45,6 +45,7 @@ def meetup(agent_listing: tuple) -> list:
         out+=[list_of_active_agents[0]]
     if(num_of_agent%2==1):
         num_of_agent-=1
+        out+=[list_of_active_agents[-1]]
 
 
     for i in range(0,num_of_agent,2):
